@@ -4,10 +4,14 @@ import type { IReciepe } from "../models/recipe";
 export class Recipe {
 
     constructor(recipe: IReciepe) {
-
+        console.log(recipe)
     }
 
-    fitsIngredients(ingredentOne: IIngredient, ingredientTwo: IIngredient, ingredentThree: IIngredient, ingredientFour: IIngredient): boolean {
+    fitsIngredients(ingredientOne: IIngredient, ingredientTwo: IIngredient, ingredientThree: IIngredient, ingredientFour: IIngredient): boolean {
+        console.log(ingredientOne)
+        console.log(ingredientTwo)
+        console.log(ingredientThree)
+        console.log(ingredientFour)
         return false;
     }
 }
