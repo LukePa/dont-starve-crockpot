@@ -1,17 +1,24 @@
 <script setup lang="ts">
 import type { IReciepe } from '../models/recipe';
 
-const props = defineProps<{
+defineProps<{
     reciepe: IReciepe
 }>()
+
 </script>
 
 
 <template>
-    <img :src="reciepe.image"    
+    <img :src="reciepe.image"/>   
 </template>
 
 
 <style scoped>
-
+img {
+    background-image: url("Inventory_slot_background.png");
+    background-size: contain;
+    width: 64px;
+    height: 64px;
+    cursor: pointer;
+}
 </style>

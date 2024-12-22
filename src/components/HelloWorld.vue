@@ -7,14 +7,19 @@ import allRecipes from '../reciepes';
 </script>
 
 <template>
-  <template v-for="i in AllIngredients" :key="i.name">
-    <Ingredient :ingredient="i"  />
-  </template>
+  <div>
+    <p>Ingredients</p>
+    <template v-for="i in AllIngredients" :key="i.name">
+      <Ingredient :ingredient="i"  />
+    </template>
+  </div>
 
-  <template v-for="r in allRecipes" :key="r.name">
-    <Reciepe :reciepe="r" />
-  </template>
-    
+  <div>
+    <p>Recipes</p>
+    <template v-for="r in allRecipes" :key="r.name">
+      <Reciepe :reciepe="r" />
+    </template>
+  </div>
 </template>
 
 <style scoped>

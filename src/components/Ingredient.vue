@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import type { IIngredient } from '../models/ingredient';
 
-const props = defineProps<{
+defineProps<{
     ingredient: IIngredient
 }>();
 
@@ -9,12 +9,15 @@ const props = defineProps<{
 
 
 <template>
-    <div class="ingredient-container">
-        <img :src="ingredient.image" />
-    </div>
+    <img :src="ingredient.image" />
 </template>
 
 
 <style scoped>
-
+img {
+    background-image: url("Inventory_slot_background.png");
+    background-size: contain;
+    width: 64px;
+    height: 64px;
+}
 </style>
