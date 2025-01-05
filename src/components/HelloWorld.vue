@@ -71,6 +71,13 @@ import allRecipes from '../reciepes';
   </div>
 
   <div>
+    <p>Ingredients (misc)</p>
+    <template v-for="i in allIngredients.filter(ing => !ing.bug && !ing.dairy && !ing.egg && !ing.fish && !ing.fruit && !ing.meat && !ing.monster && !ing.sweeteners && !ing.vegetables)" :key="i.name">
+      <Ingredient :ingredient="i"  />
+    </template>
+  </div>
+
+  <div>
     <p>Recipes</p>
     <template v-for="r in allRecipes" :key="r.name">
       <Reciepe :reciepe="r" />

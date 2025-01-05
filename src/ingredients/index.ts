@@ -102,6 +102,12 @@ import beanBugs from "./beanBugs";
 import cookedBeanBugs from "./cookedBeanBugs";
 import gummySlug from "./gummySlug";
 import cookedGummySlug from "./cookedGummySlug";
+import butterflyWings from "./butterflyWings";
+import ice from "./ice";
+import moleworm from "./moleworm";
+import roastedBirchnut from "./roastedBirchnut";
+import nettle from "./nettle";
+import foliage from "./foliage";
 
 
 /*
@@ -132,7 +138,8 @@ const allIngredients: Array<IIngredient> = [
     doydoyEgg, cookedDoydoyEgg, berries, cookedBerries, banana, cookedBanana, dragonFruit, cookedDragonFruit,
     durian, cookedDurian, pomegranate, cookedPomegranate, watermelon, cookedWatermelon, coffeeBeans,
     cookedCoffeeBeans, halvedCoconut, cookedHalvedCoconut, honey, honeycomb, butter, electricMilk,
-    beanBugs, cookedBeanBugs, gummySlug, cookedGummySlug,
+    beanBugs, cookedBeanBugs, gummySlug, cookedGummySlug, butterflyWings, ice, moleworm, roastedBirchnut,
+    nettle, foliage
 ];
 
 export default allIngredients;

@@ -105,7 +105,13 @@ export enum IngredientName {
     BeanBugs = "Bean Bugs",
     CookedBeanBugs = "Cooked Bean Bugs",
     GummySlug = "Gummy Slug",
-    CookedGummySlug = "Cooked Gummy Slug"
+    CookedGummySlug = "Cooked Gummy Slug",
+    ButterflyWings = "Butterfly Wings",
+    Ice = "Ice",
+    Moleworm = "Moleworm",
+    RoastedBirchnut = "Roasted Birchnut",
+    Nettle = "Nettle",
+    Foliage = "Foliage",
 }
 
 
