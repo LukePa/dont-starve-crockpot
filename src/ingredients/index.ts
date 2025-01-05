@@ -72,17 +72,48 @@ import limpets from "./limpets";
 import cookedLimpets from "./cookedLimpets";
 import mussel from "./mussel";
 import cookedMussel from "./cookedMussel";
+import egg from "./egg";
+import cookedEgg from "./cookedEgg";
+import tallbirdEgg from "./tallbirdEgg";
+import cookedTallbirdEgg from "./cookedTallbirdEgg";
+import doydoyEgg from "./doydoyEgg";
+import cookedDoydoyEgg from "./cookedDoydoyEgg";
+import berries from "./berries";
+import cookedBerries from "./cookedBerries";
+import banana from "./banana";
+import cookedBanana from "./cookedBanana";
+import dragonFruit from "./dragonFruit";
+import cookedDragonFruit from "./cookedDragonFruit";
+import durian from "./durian";
+import cookedDurian from "./cookedDurian";
+import pomegranate from "./pomegranate";
+import cookedPomegranate from "./cookedPomegranate";
+import watermelon from "./watermelon";
+import cookedWatermelon from "./cookedWatermelon";
+import coffeeBeans from "./coffeeBeans";
+import cookedCoffeeBeans from "./cookedCoffeeBeans";
+import halvedCoconut from "./halvedCoconut";
+import cookedHalvedCoconut from "./cookedHalvedCoconut";
+import honey from "./honey";
+import honeycomb from "./honeycomb";
+import butter from "./butter";
+import electricMilk from "./electricMilk";
+import beanBugs from "./beanBugs";
+import cookedBeanBugs from "./cookedBeanBugs";
+import gummySlug from "./gummySlug";
+import cookedGummySlug from "./cookedGummySlug";
 
 
 /*
 DONE    MEATS 
 DONE    FISHES
-EGGS
-FRUITS
+DONE    EGGS
+DONE    FRUITS
 DONE    VEGS                                    
-SWEETNERS
-MONSTER
-BUGS
+DONE    SWEETNERS
+DONE    MONSTER
+DONE    BUGS
+DONE    DAIRY
 */
 
 
@@ -97,7 +128,11 @@ const allIngredients: Array<IIngredient> = [
     rawFish, fishSteak, neonQuattro, cookedNeonQuattro, pierrotFish, cookedPierrotFish,
     purpleGrouper, cookedPurpleGrouper, roe, cookedRoe, sharkFin, tropicalFish, fishMorsel,
     cookedFishMorsel, wobster, crabbit, jellyfish, deadJellyfish, cookedJellyfish, driedJellyfish,
-    limpets, cookedLimpets, mussel, cookedMussel,
+    limpets, cookedLimpets, mussel, cookedMussel, egg, cookedEgg, tallbirdEgg, cookedTallbirdEgg,
+    doydoyEgg, cookedDoydoyEgg, berries, cookedBerries, banana, cookedBanana, dragonFruit, cookedDragonFruit,
+    durian, cookedDurian, pomegranate, cookedPomegranate, watermelon, cookedWatermelon, coffeeBeans,
+    cookedCoffeeBeans, halvedCoconut, cookedHalvedCoconut, honey, honeycomb, butter, electricMilk,
+    beanBugs, cookedBeanBugs, gummySlug, cookedGummySlug,
 ];
 
 export default allIngredients;
