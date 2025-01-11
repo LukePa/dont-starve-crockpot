@@ -1,13 +1,15 @@
-import type { IReciepe } from "../../models/recipe";
 import { inedibleNames } from "../../models/ingredientName";
 import image from "./image.webp";
+import Reciepe from "../../classes/recipe";
 
-const meatballs: IReciepe = {
-    name: "Mealballs",
-    priority: -1,
-    image: image,
-    minmeat: 0.1,
-    restrictedIngredients: inedibleNames
+export default class Meatballs extends Reciepe {
+    name = "Mealballs";
+    priority = -1;
+    image = image;
+    minmeat = 0.1;
+    restrictedIngredients = inedibleNames;
+
+    constructor() {
+        super();
+    }
 }
-
-export default meatballs;

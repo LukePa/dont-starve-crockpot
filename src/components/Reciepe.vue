@@ -1,8 +1,9 @@
 <script setup lang="ts">
-import type { IReciepe } from '../models/recipe';
+import type { Recipe } from '../classes/recipe';
 
-defineProps<{
-    reciepe: IReciepe
+
+const props = defineProps<{
+    reciepe: Recipe
 }>()
 
 </script>

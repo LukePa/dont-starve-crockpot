@@ -1,7 +1,9 @@
-import meatballs from "./meatballs";
+import type Recipe from "../classes/recipe";
+import Meatball from "./meatballs";
 
-const allRecipes = [
-    meatballs
+const allRecipes: Recipe[] = [
+    new Meatball(),
+
 ]
 
 export default allRecipes;

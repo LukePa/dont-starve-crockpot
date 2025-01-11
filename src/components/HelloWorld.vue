@@ -4,9 +4,28 @@ import Ingredient from './Ingredient.vue';
 import allIngredients from '../ingredients';
 import allRecipes from '../reciepes';
 
+import Meatballs from '../reciepes/meatballs';
+import smallJerky from '../ingredients/smallJerky';
+import berries from '../ingredients/berries';
+import twig from '../ingredients/twig';
+import butterflyWings from '../ingredients/butterflyWings';
+import ButterMuffin from '../reciepes/butterMuffin';
+import corn from '../ingredients/corn';
+
+const test = () => {
+  const meatball = new Meatballs();
+  const butterMuffin = new ButterMuffin();
+  //alert(meatball.fitsIngredients(smallJerky, smallJerky, smallJerky, smallJerky))
+  //alert(meatball.fitsIngredients(berries, berries, berries, berries))
+  //alert(meatball.fitsIngredients(smallJerky, smallJerky, smallJerky, twig))
+
+  alert(butterMuffin.fitsIngredients(butterflyWings, corn, corn, twig))
+}
+
 </script>
 
 <template>
+  <button @click="test">Run test</button>
   <div>
     <p>Ingredients (veg)</p>
     <template v-for="i in allIngredients.filter(ing => ing.vegetables)" :key="i.name">
