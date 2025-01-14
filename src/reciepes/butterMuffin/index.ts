@@ -6,9 +6,9 @@ export default class ButterMuffin extends Reciepe {
     name = "Butter Muffin";
     priority = 1;
     image = image;
-    maxmeat = 0.01;
+    maxmeat = 0;
     minvegetables = 0.5;
-    requiredIngredients = [IngredientName.ButterflyWings]
+    requiredIngredients = [[IngredientName.ButterflyWings]]
 
     constructor() {
         super();
