@@ -1,26 +1,44 @@
 import type Recipe from "../classes/recipe";
+import { AsparagusSoup } from "./asparagusSoup";
 import { BaconAndEggs } from "./baconAndEggs";
 import ButterMuffin from "./butterMuffin";
 import { Dragonpie } from "./dragonpie";
+import { Feijoada } from "./feijoada";
 import { Fishsticks } from "./fishsticks";
 import { FishTacos } from "./fishTacos";
 import { FistFullOfJam } from "./fistFullOfJam";
 import { FroggleBunwich } from "./froggleBunwich";
 import { FruitMedley } from "./fruitMedley";
+import { GummyCake } from "./gummyCake";
+import { HardShellTacos } from "./hardShellTacos";
 import { HoneyHam } from "./honeyHam";
 import { HoneyNuggets } from "./honeyNuggets";
+import { IcedTea } from "./icedTea";
 import { Kabobs } from "./kabobs";
 import { MandrakeSoup } from "./mandrakeSoup";
 import Meatball from "./meatballs";
+import { MeatedNettles } from "./meatedNettles";
 import { MeatyStew } from "./meatyStew";
 import { MonsterLasagna } from "./monsterLasagna";
+import { NettleRolls } from "./nettleRolls";
 import { Pierogi } from "./pierogi";
 import { Powdercake } from "./powdercake";
 import { PumpkinCookie } from "./pumpkinCookie";
 import { Ratatouille } from "./ratatouille";
+import { SnakeBoneSoup } from "./snakeBoneSoup";
+import { SpicyVegetableStinger } from "./spicyVegetableStinger";
+import { SteamedHamSandwich } from "./steamedHamSandwich";
 import { StuffedEggplant } from "./stuffedEggplant";
 import { Taffy } from "./taffy";
+import { Tea } from "./tea";
 import { TurkeyDinner } from "./turkeyDinner";
+import { Unagi } from "./unagi";
+import { Waffles } from "./waffles";
+import { WetGoop } from "./wetGoop";
+
+//  TODO
+// Add images for all recipes below Turkey Dinner
+// Add image for Piko and Snake Bone ingredient
 
 const allRecipes: Recipe[] = [
     new BaconAndEggs(),
@@ -45,6 +63,20 @@ const allRecipes: Recipe[] = [
     new StuffedEggplant(),
     new Taffy(),
     new TurkeyDinner(),
+    new Unagi(),
+    new Waffles(),
+    new WetGoop(),
+    new Feijoada(),
+    new GummyCake(),
+    new HardShellTacos(),
+    new IcedTea(),
+    new MeatedNettles(),
+    new NettleRolls(),
+    new SnakeBoneSoup(),
+    new SpicyVegetableStinger(),
+    new SteamedHamSandwich(),
+    new Tea(),
+    new AsparagusSoup(),
 ]
 
 export default allRecipes;
