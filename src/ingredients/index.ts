@@ -110,6 +110,7 @@ import nettle from "./nettle";
 import foliage from "./foliage";
 import twig from "./twig";
 import piko from "./piko";
+import snakeBone from "./snakeBone";
 
 
 /*
@@ -141,7 +142,7 @@ const allIngredients: Array<IIngredient> = [
     durian, cookedDurian, pomegranate, cookedPomegranate, watermelon, cookedWatermelon, coffeeBeans,
     cookedCoffeeBeans, halvedCoconut, cookedHalvedCoconut, honey, honeycomb, butter, electricMilk,
     beanBugs, cookedBeanBugs, gummySlug, cookedGummySlug, butterflyWings, ice, moleworm, roastedBirchnut,
-    nettle, foliage, twig, piko,
+    nettle, foliage, twig, piko, snakeBone,
 ];
 
 export default allIngredients;

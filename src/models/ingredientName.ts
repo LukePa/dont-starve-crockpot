@@ -113,6 +113,7 @@ export enum IngredientName {
     Nettle = "Nettle",
     Foliage = "Foliage",
     Piko = "Piko",
+    SnakeBone = "Snake Bone",
 }
 
 
