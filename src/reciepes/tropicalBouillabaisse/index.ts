@@ -9,5 +9,9 @@ export class TropicalBouillabaisse extends Recipe {
 
     minvegetables = 1;
 
-    requiredIngredients = [[IngredientName.PurpleGrouper], [IngredientName.PierrotFish], [IngredientName.NeonQuattro]];
+    requiredIngredients = [
+        [IngredientName.PurpleGrouper, IngredientName.CookedPurpleGrouper], 
+        [IngredientName.PierrotFish, IngredientName.CookedPierrotFish], 
+        [IngredientName.NeonQuattro, IngredientName.CookedNeonQuattro]
+    ];
 }
