@@ -1,8 +1,10 @@
 import Recipe from "../../classes/recipe";
 import image from "./image.webp";
 
-export class WetGoop extends Recipe {
-    name = "Wet Goop";
-    priority = -2;
+export class SeafoodGumbo extends Recipe {
+    name = "Seafood Gumbo";
+    priority = 10;
     image = image;
+
+    minfish = 2;
 }

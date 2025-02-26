@@ -1,5 +1,5 @@
 import Recipe from "../../classes/recipe";
-import type { IngredientName } from "../../models/ingredientName";
+import { IngredientName, inedibleNames } from "../../models/ingredientName";
 import image from "./image.webp";
 
 export class JellyoPop extends Recipe {
@@ -7,5 +7,9 @@ export class JellyoPop extends Recipe {
     priority = 20;
     image = image;
 
-    requiredIngredients = [[]]
+    requiredIngredients = [
+        [IngredientName.Ice], 
+        inedibleNames, 
+        [IngredientName.Jellyfish, IngredientName.DeadJellyfish, IngredientName.DriedJellyfish, IngredientName.CookedJellyfish]
+    ]
 }

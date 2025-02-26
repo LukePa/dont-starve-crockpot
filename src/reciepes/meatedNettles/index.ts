@@ -9,5 +9,5 @@ export class MeatedNettles extends Recipe {
 
     allowInedible = false;
     minmeat = 1;
-    requiredIngredients = [[IngredientName.Nettle, IngredientName.Nettle]];
+    requiredIngredients = [[IngredientName.Nettle], [IngredientName.Nettle]];
 }
